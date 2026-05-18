@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quinta do Coelho — Espaço de eventos em Encourados, Barcelos. Casamentos, batizados, comunhões, festas e eventos empresariais no coração do Minho.">
+  <meta name="keywords" content="quinta eventos barcelos, casamentos barcelos, quinta do coelho, salão festas barcelos, eventos minho">
+  <title>Quinta do Coelho — Espaço de Eventos · Barcelos, Minho</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ─── Navigation ───────────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <a href="#inicio" class="nav__logo">Quinta do <span>Coelho</span></a>
+    <ul class="nav__links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#espacos">Espaços</a></li>
+      <li><a href="#eventos">Eventos</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#localizacao">Localização</a></li>
+      <li><a href="#contacto" class="btn nav__cta">Reservar</a></li>
+    </ul>
+    <button class="nav__toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="nav__mobile" id="navMobile">
+    <a href="#sobre" class="mobile-link">Sobre</a>
+    <a href="#espacos" class="mobile-link">Espaços</a>
+    <a href="#eventos" class="mobile-link">Eventos</a>
+    <a href="#galeria" class="mobile-link">Galeria</a>
+    <a href="#localizacao" class="mobile-link">Localização</a>
+    <a href="#contacto" class="btn btn--primary mobile-link">Reservar</a>
+  </div>
+
+  <!-- ─── Hero ─────────────────────────────────────────────────────────── -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg" id="heroBg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__grain"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Encourados · Barcelos · Minho</p>
+      <h1 class="hero__title">Um lugar onde os<br><em>momentos se tornam memórias</em></h1>
+      <p class="hero__subtitle">Espaço rústico e elegante no coração do Minho, para casamentos, celebrações e eventos inesquecíveis.</p>
+      <div class="hero__actions">
+        <a href="#contacto" class="btn btn--primary magnetic">Solicitar Orçamento</a>
+        <a href="#espacos" class="btn btn--outline magnetic">Conhecer os Espaços</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <div class="hero__scroll-line"></div>
+      <span>Descobrir</span>
+    </div>
+  </section>
+
+  <!-- ─── Stats Strip ──────────────────────────────────────────────────── -->
+  <div class="stats-strip">
+    <div class="container">
+      <div class="stats-strip__grid">
+        <div class="stats-strip__item">
+          <strong data-count="3">0</strong>
+          <span>Salões distintos</span>
+        </div>
+        <div class="stats-strip__divider"></div>
+        <div class="stats-strip__item">
+          <strong data-count="500" data-prefix="+">0</strong>
+          <span>Eventos realizados</span>
+        </div>
+        <div class="stats-strip__divider"></div>
+        <div class="stats-strip__item">
+          <strong data-count="100" data-suffix="%">0</strong>
+          <span>Atenção personalizada</span>
+        </div>
+        <div class="stats-strip__divider"></div>
+        <div class="stats-strip__item">
+          <strong class="no-count">Minho</strong>
+          <span>No coração do norte</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── Marquee ──────────────────────────────────────────────────────── -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <div class="marquee__content">
+        <span>Casamentos</span><span class="marquee__sep">◆</span>
+        <span>Batizados</span><span class="marquee__sep">◆</span>
+        <span>Comunhões</span><span class="marquee__sep">◆</span>
+        <span>Festas de Aniversário</span><span class="marquee__sep">◆</span>
+        <span>Eventos Empresariais</span><span class="marquee__sep">◆</span>
+        <span>Jantares de Natal</span><span class="marquee__sep">◆</span>
+        <span>Excursões</span><span class="marquee__sep">◆</span>
+        <span>Convívios</span><span class="marquee__sep">◆</span>
+      </div>
+      <div class="marquee__content" aria-hidden="true">
+        <span>Casamentos</span><span class="marquee__sep">◆</span>
+        <span>Batizados</span><span class="marquee__sep">◆</span>
+        <span>Comunhões</span><span class="marquee__sep">◆</span>
+        <span>Festas de Aniversário</span><span class="marquee__sep">◆</span>
+        <span>Eventos Empresariais</span><span class="marquee__sep">◆</span>
+        <span>Jantares de Natal</span><span class="marquee__sep">◆</span>
+        <span>Excursões</span><span class="marquee__sep">◆</span>
+        <span>Convívios</span><span class="marquee__sep">◆</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── Sobre ─────────────────────────────────────────────────────────── -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="sobre__grid">
+        <div class="sobre__image-wrap fade-in">
+          <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.31.jpeg" alt="Exterior da Quinta do Coelho — pátio de pedra com jardins e serras ao fundo">
+          <div class="sobre__image-accent"></div>
+        </div>
+        <div class="sobre__text fade-in fade-in--delay-2">
+          <span class="section-label">A Nossa Quinta</span>
+          <h2 class="section-title">Tradição e requinte no<br>coração do Minho</h2>
+          <div class="divider"></div>
+          <p class="section-subtitle">
+            Encravada nas serras do Minho, a Quinta do Coelho é um espaço único que alia a autenticidade da pedra granítica e das vigas de madeira à elegância de um serviço cuidado. Um ambiente que aquece o coração sem nunca perder a distinção.
+          </p>
+          <p style="margin-top:1.25rem; font-size:0.95rem; color:var(--stone); line-height:1.8;">
+            Localizada em Encourados, Barcelos, a quinta oferece uma paisagem deslumbrante como pano de fundo para os momentos mais especiais da sua vida — do casamento ao batizado, da festa de aniversário ao evento empresarial.
+          </p>
+          <div class="sobre__features">
+            <div class="sobre__feature">
+              <div class="sobre__feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <div class="sobre__feature-text">
+                <strong>3 Salões Distintos</strong>
+                <span>Adaptáveis a qualquer evento</span>
+              </div>
+            </div>
+            <div class="sobre__feature">
+              <div class="sobre__feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8C8 10 5.9 16.17 3.82 19.05c-.22.32.11.69.45.5C6.39 18.15 8.82 17 12 17c4 0 6-2 8-7-1-1-2-3-3-2z"/><path d="M3 19c2-4 4.5-6.5 9-7"/></svg>
+              </div>
+              <div class="sobre__feature-text">
+                <strong>Jardins Privados</strong>
+                <span>Para cerimónias ao ar livre</span>
+              </div>
+            </div>
+            <div class="sobre__feature">
+              <div class="sobre__feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 002-2V2M7 2v20M21 15V2a5 5 0 00-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg>
+              </div>
+              <div class="sobre__feature-text">
+                <strong>Serviço Completo</strong>
+                <span>Catering e decoração</span>
+              </div>
+            </div>
+            <div class="sobre__feature">
+              <div class="sobre__feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="sobre__feature-text">
+                <strong>Barcelos, Braga</strong>
+                <span>Fácil acesso pelo Minho</span>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:2.5rem;">
+            <a href="#contacto" class="btn btn--dark magnetic">Entrar em Contacto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Espaços ───────────────────────────────────────────────────────── -->
+  <section class="section--alt" id="espacos">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Os Nossos Espaços</span>
+        <h2 class="section-title">Três salões, um só ambiente</h2>
+        <div class="divider divider--center"></div>
+        <p class="section-subtitle">Cada salão tem a sua personalidade, todos partilham a mesma autenticidade do granito e da madeira do Minho.</p>
+      </div>
+      <div class="espacos__grid">
+        <div class="espaco-card fade-in fade-in--delay-1">
+          <div class="espaco-card__img">
+            <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.39%20%282%29.jpeg" alt="Salão Grande da Quinta do Coelho — tecto de madeira e paredes de pedra">
+          </div>
+          <div class="espaco-card__body">
+            <p class="espaco-card__tag">Salão Principal</p>
+            <h3>Salão Grande</h3>
+            <p>O espaço maior da quinta, com tecto em caixotão de madeira, paredes de granito e iluminação quente. Ideal para recepções de grande dimensão com toda a grandiosidade que merece.</p>
+          </div>
+        </div>
+        <div class="espaco-card fade-in fade-in--delay-2">
+          <div class="espaco-card__img">
+            <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.40%20%2810%29.jpeg" alt="Salão Médio com janelões e vistas para o jardim">
+          </div>
+          <div class="espaco-card__body">
+            <p class="espaco-card__tag">Salão Médio</p>
+            <h3>Salão dos Jardins</h3>
+            <p>Um salão de luz generosa, com janelões que enquadram o jardim e os montes do Minho. Tecto de madeira nobre, pavimento em soalho e uma atmosfera serena e elegante.</p>
+          </div>
+        </div>
+        <div class="espaco-card fade-in fade-in--delay-3">
+          <div class="espaco-card__img">
+            <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.42%20%281%29.jpeg" alt="Salão reservado com paredes de granito e ambiente íntimo">
+          </div>
+          <div class="espaco-card__body">
+            <p class="espaco-card__tag">Salão Médio</p>
+            <h3>Salão Privado</h3>
+            <p>Um espaço mais reservado e intimista, revestido a granito tradicional minhoto. Ideal para celebrações mais recolhidas onde o calor humano e a privacidade fazem toda a diferença.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Eventos ───────────────────────────────────────────────────────── -->
+  <section class="section--dark" id="eventos">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">O que celebramos</span>
+        <h2 class="section-title">Para cada ocasião,<br>o espaço certo</h2>
+        <div class="divider divider--center"></div>
+        <p class="section-subtitle">Da cerimónia mais íntima ao grande evento empresarial, a Quinta do Coelho recebe todos com o mesmo cuidado.</p>
+      </div>
+      <div class="eventos__grid">
+        <div class="evento-card fade-in fade-in--delay-1">
+          <div class="evento-card__img">
+            <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.39%20%288%29.jpeg" alt="Casamento na Quinta do Coelho — cerimónia exterior com tapete vermelho">
+          </div>
+          <div class="evento-card__overlay"></div>
+          <div class="evento-card__content">
+            <div class="evento-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="8" cy="12" r="4.5"/><circle cx="16" cy="12" r="4.5"/></svg>
+            </div>
+            <h3>Casamentos</h3>
+            <p>Cerimónias e recepções com todo o requinte que o vosso dia merece.</p>
+          </div>
+        </div>
+        <div class="evento-card fade-in fade-in--delay-2">
+          <div class="evento-card__img">
+            <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.39%20%281%29.jpeg" alt="Batizado na Quinta do Coelho">
+          </div>
+          <div class="evento-card__overlay"></div>
+          <div class="evento-card__content">
+            <div class="evento-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 22a7 7 0 007-7c0-2-1-3.9-2.5-5.5l-4.5-4.5-4.5 4.5A7.5 7.5 0 005 15a7 7 0 007 7z"/></svg>
+            </div>
+            <h3>Batizados</h3>
+            <p>Uma celebração acolhedora para receber o novo membro da família.</p>
+          </div>
+        </div>
+        <div class="evento-card fade-in fade-in--delay-3">
+          <div class="evento-card__img">
+            <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.41%20%283%29.jpeg" alt="Festa de aniversário na Quinta do Coelho">
+          </div>
+          <div class="evento-card__overlay"></div>
+          <div class="evento-card__content">
+            <div class="evento-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>Festas & Aniversários</h3>
+            <p>Celebre os seus momentos com estilo, alegria e muito espaço.</p>
+          </div>
+        </div>
+        <div class="evento-card fade-in fade-in--delay-4">
+          <div class="evento-card__img">
+            <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.41%20%285%29.jpeg" alt="Cocktail e evento empresarial no pátio da Quinta do Coelho">
+          </div>
+          <div class="evento-card__overlay"></div>
+          <div class="evento-card__content">
+            <div class="evento-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+            </div>
+            <h3>Eventos Empresariais</h3>
+            <p>Jantares de convívio, excursões e eventos corporativos num ambiente único.</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:3.5rem;" class="fade-in">
+        <p style="color:rgba(255,255,255,0.45); font-size:0.82rem; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:1.5rem;">Também: Comunhões · Excursões · Jantares de Natal · Convívios</p>
+        <a href="#contacto" class="btn btn--primary magnetic">Consultar Disponibilidade</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Quote Strip ───────────────────────────────────────────────────── -->
+  <div class="quote-strip">
+    <div class="quote-strip__bg" style="background-image:url('fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.41%20%289%29.jpeg')"></div>
+    <div class="quote-strip__overlay"></div>
+    <div class="container quote-strip__content">
+      <div class="quote-strip__icon">❝</div>
+      <blockquote>
+        Um espaço que não precisa de grandes palavras.<br>A pedra, a madeira e o verde do Minho falam por si.
+      </blockquote>
+      <cite>Quinta do Coelho · Barcelos, Minho</cite>
+    </div>
+  </div>
+
+  <!-- ─── Galeria ───────────────────────────────────────────────────────── -->
+  <section class="galeria" id="galeria">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Galeria</span>
+        <h2 class="section-title">Momentos que ficam</h2>
+        <div class="divider divider--center"></div>
+        <p class="section-subtitle">Uma janela para o que está por viver na Quinta do Coelho.</p>
+      </div>
+      <div class="galeria__grid" id="galeriaGrid">
+        <div class="galeria__item galeria__item--wide fade-in" data-index="0">
+          <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.40.jpeg" alt="Arco de flores para cerimónia de casamento no jardim">
+          <div class="galeria__item__overlay"><span>+</span></div>
+        </div>
+        <div class="galeria__item fade-in fade-in--delay-1" data-index="1">
+          <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.32%20%282%29.jpeg" alt="Exterior da Quinta do Coelho enquadrado por árvore de magnólia">
+          <div class="galeria__item__overlay"><span>+</span></div>
+        </div>
+        <div class="galeria__item fade-in fade-in--delay-2" data-index="2">
+          <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.41%20%286%29.jpeg" alt="Decoração de mesa elegante com flores brancas e parede de pedra">
+          <div class="galeria__item__overlay"><span>+</span></div>
+        </div>
+        <div class="galeria__item fade-in fade-in--delay-1" data-index="3">
+          <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.39%20%284%29.jpeg" alt="Mesa redonda decorada com cristalaria e flores para evento">
+          <div class="galeria__item__overlay"><span>+</span></div>
+        </div>
+        <div class="galeria__item fade-in fade-in--delay-2" data-index="4">
+          <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.42.jpeg" alt="Pátio exterior da quinta com mesas e chapéus de sol">
+          <div class="galeria__item__overlay"><span>+</span></div>
+        </div>
+        <div class="galeria__item galeria__item--wide fade-in fade-in--delay-3" data-index="5">
+          <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.41%20%281%29.jpeg" alt="Mesa de sobremesas num evento na Quinta do Coelho">
+          <div class="galeria__item__overlay"><span>+</span></div>
+        </div>
+        <div class="galeria__item fade-in fade-in--delay-2" data-index="6">
+          <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.40%20%287%29.jpeg" alt="Salão preparado para cerimónia interior com tapete vermelho">
+          <div class="galeria__item__overlay"><span>+</span></div>
+        </div>
+        <div class="galeria__item fade-in fade-in--delay-3" data-index="7">
+          <img src="fotosquintas/WhatsApp%20Image%202026-05-18%20at%2015.16.32%20%281%29.jpeg" alt="Caminho do jardim com candeeiro clássico e vegetação exuberante">
+          <div class="galeria__item__overlay"><span>+</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightboxClose">&#x2715;</button>
+    <button class="lightbox__prev" id="lightboxPrev">&#8249;</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="">
+    <button class="lightbox__next" id="lightboxNext">&#8250;</button>
+  </div>
+
+  <!-- ─── Localização ───────────────────────────────────────────────────── -->
+  <section class="section--alt" id="localizacao">
+    <div class="container">
+      <div class="localizacao__grid">
+        <div class="localizacao__info fade-in">
+          <span class="section-label">Como Chegar</span>
+          <h2 class="section-title">Encontre-nos no<br>coração do Minho</h2>
+          <div class="divider"></div>
+          <p class="section-subtitle">A Quinta do Coelho está situada em Encourados, uma freguesia tranquila de Barcelos, com fácil acesso a partir do Porto, Braga e Viana do Castelo.</p>
+          <div class="localizacao__details">
+            <div class="localizacao__detail">
+              <div class="localizacao__detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="localizacao__detail-text">
+                <strong>Morada</strong>
+                <span>Encourados, 4750 Barcelos, Braga</span>
+              </div>
+            </div>
+            <div class="localizacao__detail">
+              <div class="localizacao__detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="localizacao__detail-text">
+                <strong>Telefone</strong>
+                <span><a href="tel:964605331">964 605 331</a></span>
+              </div>
+            </div>
+            <div class="localizacao__detail">
+              <div class="localizacao__detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3a2 2 0 01-2-2V9a2 2 0 012-2h3.65a2 2 0 011.79 1.11L10 11h4l1.56-2.89A2 2 0 0117.35 7H21a2 2 0 012 2v6a2 2 0 01-2 2h-2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+              </div>
+              <div class="localizacao__detail-text">
+                <strong>A partir do Porto</strong>
+                <span>Aprox. 45 min pela A28 / A11</span>
+              </div>
+            </div>
+            <div class="localizacao__detail">
+              <div class="localizacao__detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3a2 2 0 01-2-2V9a2 2 0 012-2h3.65a2 2 0 011.79 1.11L10 11h4l1.56-2.89A2 2 0 0117.35 7H21a2 2 0 012 2v6a2 2 0 01-2 2h-2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+              </div>
+              <div class="localizacao__detail-text">
+                <strong>A partir de Braga</strong>
+                <span>Aprox. 25 min pela N103</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="localizacao__map fade-in fade-in--delay-2">
+          <iframe
+            src="https://maps.google.com/maps?q=41.5349051,-8.537853&output=embed&hl=pt&z=16"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização da Quinta do Coelho em Encourados, Barcelos">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Contacto ──────────────────────────────────────────────────────── -->
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <div class="contacto__grid">
+        <div class="contacto__info fade-in">
+          <span class="section-label">Fale Connosco</span>
+          <h2 class="section-title">Comece a planear<br>o seu evento</h2>
+          <div class="divider"></div>
+          <p class="section-subtitle">Preencha o formulário e entraremos em contacto em menos de 24 horas para discutir todos os detalhes do seu evento especial.</p>
+          <div class="contacto__phone">
+            <div class="contacto__phone-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div class="contacto__phone-text">
+              <span>Ligue Directamente</span>
+              <strong><a href="tel:964605331">964 605 331</a></strong>
+            </div>
+          </div>
+          <p class="contacto__note">
+            Preços e disponibilidades sempre mediante consulta. Todos os eventos são tratados com atenção personalizada.
+          </p>
+        </div>
+        <div class="fade-in fade-in--delay-2">
+          <form class="form" id="contactForm">
+            <div class="form__row">
+              <div class="form__group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="O seu nome" required>
+              </div>
+              <div class="form__group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="9XX XXX XXX" required>
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="email">Email <span style="color:rgba(255,255,255,0.25);font-weight:400;letter-spacing:0">(opcional)</span></label>
+              <input type="email" id="email" name="email" placeholder="email@exemplo.com">
+            </div>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="tipo">Tipo de Evento</label>
+                <select id="tipo" name="tipo" required>
+                  <option value="" disabled selected>Seleccionar</option>
+                  <option>Casamento</option>
+                  <option>Batizado</option>
+                  <option>Comunhão</option>
+                  <option>Festa de Aniversário</option>
+                  <option>Evento Empresarial</option>
+                  <option>Jantar de Convívio</option>
+                  <option>Excursão / Grupo</option>
+                  <option>Outro</option>
+                </select>
+              </div>
+              <div class="form__group">
+                <label for="data">Data Prevista</label>
+                <input type="date" id="data" name="data">
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Conte-nos mais sobre o seu evento — número de convidados, detalhes especiais..."></textarea>
+            </div>
+            <div class="form__submit">
+              <button type="submit" class="btn btn--primary btn--whatsapp magnetic">
+              <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;margin-right:0.5rem;vertical-align:middle;flex-shrink:0;"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.867-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              Enviar via WhatsApp
+            </button>
+            </div>
+          </form>
+          <div class="form__success" id="formSuccess">
+            Mensagem enviada com sucesso. Entraremos em contacto em breve.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CTA Band ─────────────────────────────────────────────────────── -->
+  <div class="cta-band">
+    <div class="container cta-band__content">
+      <div>
+        <h3 class="cta-band__title">Pronto para começar a planear?</h3>
+        <p class="cta-band__sub">A data certa começa com uma conversa. Contacte-nos hoje.</p>
+      </div>
+      <div class="cta-band__actions">
+        <a href="tel:964605331" class="btn btn--outline magnetic">964 605 331</a>
+        <a href="#contacto" class="btn btn--primary magnetic">Pedir Orçamento</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── Footer ───────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <p><strong>Quinta do Coelho</strong> &nbsp;·&nbsp; Encourados, Barcelos, Braga &nbsp;·&nbsp; <a href="tel:964605331">964 605 331</a></p>
+      <p style="margin-top:0.5rem;">&copy; 2026 Quinta do Coelho. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
